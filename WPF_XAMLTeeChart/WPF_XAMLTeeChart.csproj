@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Steema.TeeChart.NET50" Version="5.2021.1.28-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TeeChart">
+      <HintPath>..\..\..\..\..\..\tmp\PCLStandard_5.2021.1.28\TeeChart.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeChart.WPF">
+      <HintPath>..\..\..\..\..\..\tmp\PCLStandard_5.2021.1.28\TeeChart.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeChart.Xaml.WPF">
+      <HintPath>..\..\..\..\..\..\tmp\PCLStandard_5.2021.1.28\TeeChart.Xaml.WPF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
