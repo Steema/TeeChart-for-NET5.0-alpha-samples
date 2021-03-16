@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 #if VS2005
 using System.Collections.Generic;
 #endif
@@ -114,7 +114,7 @@ namespace Steema.TeeChart.Samples
             // 
             // bar1
             // 
-            this.bar1.AutoMarkPosition = false;
+            this.bar1.Marks.AutoPosition = false;
             // 
             // 
             // 

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -165,7 +165,7 @@ namespace Steema.TeeChart.Samples
 			this.gauges1.Maximum = 100;
 			this.gauges1.Minimum = 0;
 			this.gauges1.RotationAngle = 135;
-			this.gauges1.ShowInLegend = false;
+			this.gauges1.Legend.Visible = false;
 			this.gauges1.Title = "gauges1";
 			this.gauges1.TotalAngle = 90;
 			this.gauges1.Value = 66.859565287297386;

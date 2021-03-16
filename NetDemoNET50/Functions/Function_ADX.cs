@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -601,7 +601,7 @@ namespace Steema.TeeChart.Samples
 			// 
 			this.adxFunction1.DMDown.Marks.Font.Brush.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.adxFunction1.DMDown.Marks.Transparent = true;
-			this.adxFunction1.DMDown.ShowInLegend = false;
+			this.adxFunction1.DMDown.Legend.Visible = false;
 			this.adxFunction1.DMDown.Title = "DMDown";
 			this.adxFunction1.DMDown.TreatNulls = Steema.TeeChart.Styles.TreatNullsStyle.Ignore;
 			this.adxFunction1.DMDown.VertAxis = Steema.TeeChart.Styles.VerticalAxis.Custom;
@@ -661,7 +661,7 @@ namespace Steema.TeeChart.Samples
 			// 
 			this.adxFunction1.DMUp.Marks.Font.Brush.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.adxFunction1.DMUp.Marks.Transparent = true;
-			this.adxFunction1.DMUp.ShowInLegend = false;
+			this.adxFunction1.DMUp.Legend.Visible = false;
 			this.adxFunction1.DMUp.Title = "DMUp";
 			this.adxFunction1.DMUp.TreatNulls = Steema.TeeChart.Styles.TreatNullsStyle.Ignore;
 			this.adxFunction1.DMUp.VertAxis = Steema.TeeChart.Styles.VerticalAxis.Custom;

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -170,7 +170,7 @@ namespace Steema.TeeChart.Samples
 		#endregion
 
 		private void checkBox1_Click(object sender, System.EventArgs e) {
-			pie1.AutoMarkPosition = checkBox1.Checked;
+			pie1.Marks.AutoPosition = checkBox1.Checked;
 		}
 	}
 }

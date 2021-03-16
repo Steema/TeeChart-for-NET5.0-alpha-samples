@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -139,7 +139,7 @@ namespace Steema.TeeChart.Samples
 			this.calendarSeries1.Marks.Symbol.Shadow.Height = 1;
 			this.calendarSeries1.Marks.Symbol.Shadow.Visible = true;
 			this.calendarSeries1.Marks.Symbol.Shadow.Width = 1;
-			this.calendarSeries1.ShowInLegend = false;
+			this.calendarSeries1.Legend.Visible = false;
 			this.calendarSeries1.Title = "calendarSeries1";
 			// 
 			// calendarSeries1.XValues

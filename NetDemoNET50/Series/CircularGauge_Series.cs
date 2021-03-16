@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 #if VS2005
 using System.Collections.Generic;
 #endif
@@ -229,7 +229,7 @@ namespace Steema.TeeChart.Samples
 		this.cGauge.Minimum = 0;
 		this.cGauge.RedLineEndValue = 100;
 		this.cGauge.RedLineStartValue = 80;
-		this.cGauge.ShowInLegend = false;
+		this.cGauge.Legend.Visible = false;
 		this.cGauge.Title = "circularGauge1";
 		this.cGauge.TotalAngle = 300;
 		this.cGauge.Value = 96.613414630579484;

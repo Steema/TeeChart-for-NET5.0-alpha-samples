@@ -20,7 +20,7 @@ namespace Steema.TeeChart.Samples
         {
             ser1 = new Steema.TeeChart.Styles.HorizBar();
             ser1.FillSampleValues(5);
-            ser1.AutoMarkPosition = false;
+            ser1.Marks.AutoPosition = false;
             ser1.Pen.Visible = false;
             tChart1.Series.Add(ser1);
 

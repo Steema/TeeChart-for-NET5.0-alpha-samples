@@ -222,7 +222,7 @@ namespace Steema.TeeChart.Samples
       // 
       this.clockSeries3.Pointer.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
       this.clockSeries3.RotationAngle = 90;
-      this.clockSeries3.ShowInLegend = false;
+      this.clockSeries3.Legend.Visible = false;
       this.clockSeries3.Title = "clockSeries3";
       // 
       // 
@@ -299,7 +299,7 @@ namespace Steema.TeeChart.Samples
       // 
       this.clockSeries2.Pointer.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
       this.clockSeries2.RotationAngle = 90;
-      this.clockSeries2.ShowInLegend = false;
+      this.clockSeries2.Legend.Visible = false;
       this.clockSeries2.Title = "clockSeries2";
       // 
       // 
@@ -387,7 +387,7 @@ namespace Steema.TeeChart.Samples
       // 
       this.clockSeries1.Pointer.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
       this.clockSeries1.RotationAngle = 90;
-      this.clockSeries1.ShowInLegend = false;
+      this.clockSeries1.Legend.Visible = false;
       this.clockSeries1.Title = "clockSeries1";
       // 
       // 

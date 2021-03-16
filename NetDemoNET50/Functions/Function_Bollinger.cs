@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -610,7 +610,7 @@ namespace Steema.TeeChart.Samples
             this.bollinger1.LowBand.Marks.Callout.Length = 10;
             this.bollinger1.LowBand.Marks.Callout.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
             this.bollinger1.LowBand.Marks.Callout.Visible = false;
-            this.bollinger1.LowBand.ShowInLegend = false;
+            this.bollinger1.LowBand.Legend.Visible = false;
             this.bollinger1.LowBand.Title = "fastLine1";
             this.bollinger1.LowBand.TreatNulls = Steema.TeeChart.Styles.TreatNullsStyle.Ignore;
             // 

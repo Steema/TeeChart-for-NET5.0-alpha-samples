@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -29,7 +29,7 @@ namespace Steema.TeeChart.Samples
             horizBar1.Marks.Transparent = true;
             horizBar1.MarksOnBar = true;
             horizBar1.Pen.Visible = false;
-            tChart1.Axes.Left.GridCentered = true;
+            tChart1.Axes.Left.Grid.Centered = true;
 
 			// TODO: Add any initialization after the InitializeComponent call
 		}
@@ -233,7 +233,7 @@ namespace Steema.TeeChart.Samples
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            tChart1.Axes.Left.GridCentered = checkBox2.Checked;
+            tChart1.Axes.Left.Grid.Centered = checkBox2.Checked;
         }
 	}
 }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -352,7 +352,7 @@ namespace Steema.TeeChart.Samples
 			this.surfaceSeries1.Marks.Symbol.Shadow.Width = 1;
 			this.surfaceSeries1.PaletteMin = 0;
 			this.surfaceSeries1.PaletteStep = 0;
-			this.surfaceSeries1.ShowInLegend = false;
+			this.surfaceSeries1.Marks.AutoPosition = false;
 			this.surfaceSeries1.Title = "surface2";
 			this.surfaceSeries1.Visible = false;
 			// 
