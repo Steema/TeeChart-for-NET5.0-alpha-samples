@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Steema.TeeChart.NET50.WPF" Version="5.2021.1.28-beta" />
+    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartNET\Version 4\Sources\TeeChart.PCL.NETStandard\Headless\TeeChart\TeeChart.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.WPF\TeeChart.WPF.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.Xaml.WPF\TeeChart.Xaml.WPF.csproj" />
   </ItemGroup>
 
   <ItemGroup>
