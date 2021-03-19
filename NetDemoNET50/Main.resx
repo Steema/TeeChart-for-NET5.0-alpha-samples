@@ -1,4 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -52,13 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
         AQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgIC
@@ -87,7 +147,7 @@
         AD+VH/EVaOn79r107eT/AK/AXDu37v8ArT+v6RpUUUV/Ph9eFFFFABRRRQB//9k=
 </value>
   </data>
-  <data name="panel5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="panel5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
         AQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgIC
@@ -241,7 +301,7 @@
         96iigA/5af5/u1JRRQAVHJ2/H+lFFAElFFFABRRRWdPqBH/y0/z/AHakooop9QI5O34/0qSiitAP/9k=
 </value>
   </data>
-  <data name="panel6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="panel6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
         AQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgIC
@@ -270,7 +330,7 @@
         AD+VH/EVaOn79r107eT/AK/AXDu37v8ArT+v6RpUUUV/Ph9eFFFFABRRRQB//9k=
 </value>
   </data>
-  <data name="panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
         AQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgIC
@@ -980,7 +1040,6 @@
   Single Record,DBChart_SingleRecord,\\Datasource\\DBChart_SingleRecord
   CrossTab Charts,DBChart_CrossTabSource,\\Datasource\\DBChart_CrossTabSource
   Master Detail,Master_Detail,\\Series\\Master_Detail
-  DesignTime Drill-Down,DBDrillDown,\\Datasource\\DBDrillDown  
  Printing
   Print Export dialog,Chart_PrintPreview,\\Print\\Chart_PrintPreview
  Exporting
@@ -1099,7 +1158,6 @@
    DrawLine Tool,Tools_DrawLineDragged,\\Tools\\Tools_DrawLineDragged
    DrawLine EscapeKey,Tools_DrawLineEscape,\\Tools\Tools_DrawLineEscape
   Extra Legend,Tool_ExtraLegend,\\Tools\Tool_ExtraLegend
-  Fader Tool,Tool_Fader,\\Tools\\Tool_Fader
   Fibonacci Arcs,Tool_Fibonacci,\\Tools\\Tool_Fibonacci
   Full Screen Tool,Tool_FullScreen,\\Tools\\Tool_FullScreen
   Gantt mouse dragging,Tool_GanttTool,\\Tools\\GanttTool
@@ -1107,7 +1165,6 @@
    GridBand Centered,Axes_GridBandsCentered,\\Tools\\Axes_gridBandsCentered
   Image,Tools_Image,\\Tools\\Tools_Image
   Legend Palette,Tool_LegendPalette,\\Tools\\Tool_LegendPalette
-  Lighting,Tool_Lighting,\\Tools\\Tool_Lighting
   Mark tips,Tool_MarksTip,\\Tools\\Tool_MarksTip
   Nearest Point,Tools_Nearest,\\Tools\\Tools_Nearest
    NearestPoint Directions,NearestTool_Direction,\\Tools\\NearestTool_Direction
@@ -1252,7 +1309,6 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
   Gantt MultipleNextTasks,Gantt_MultipleNextTasks,\\Series\\Gantt_MultipleNextTasks
   Tower Stacked,Tower_Stacked,\\Series\\Tower_Stacked 
   Master Detail,Master_Detail,\\Series\\Master_Detail
-  DesignTime Drill-Down,DBDrillDown,\\Datasource\\DBDrillDown
  New in Zoom and Scroll
   Zoom History,Zoom_Pen,\\Zoom_Scroll\\Zoom_Pen
  New Chart Tools
@@ -1296,7 +1352,7 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj01LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADW
-        CQAAAk1TRnQBSQFMAgEBBAEAARwBAQEcAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CQAAAk1TRnQBSQFMAgEBBAEAARwBAQEgAQEBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -1338,10 +1394,10 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
         AwABQAMAASADAAEBAQABAQYAAQEWAAP/gQAG/wIABv8CAAGAAQEB4AEAAv8DAAEBAcABAAL/AwABAQHA
         AQAB/AE/AwABAQGAAQAB+AEfAwABAQGAAQAB8AEPAwABAQIAAfABDwMAAQECAAHwAQ8DAAEBAgAB8AEP
         AwABAQGAAQAB+AEfAwABAQGAAQAB/AE/AwABAwGAAQEC/wIAAYAB/wHAAX8C/wIAAcEB/wHgA/8CAAb/
-        AgAL
+        GAAL
 </value>
   </data>
-  <data name="buttonSearch.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk32AAAAAAAAAHYAAAAoAAAAEAAAABAAAAABAAQAAAAAAAAAAAB0EgAAdBIAABAAAAAQAAAAAAAA/wAA
         gP8AgAD/AICA/4AAAP+AAID/gIAA/4CAgP/AwMD/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
@@ -1350,7 +1406,7 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
         iIiIiIiI
 </value>
   </data>
-  <data name="buttonF.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhLAAJAIcAACFzvSljxilrxjFjvTFjzjFj1jFrxjlrrTlrzjlr1kJjrUJjvUJrpUJrrUpavUpj
         tUprtf//////////////////////////////////////////////////////////////////////////
@@ -1369,7 +1425,7 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
         ShToQACBBRMzatwYUQGAAQgIMOBIsuRGAwgCNDDJsuXDBgcIBgQAOw==
 </value>
   </data>
-  <data name="buttonB.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhLAAJAIcAACFzvSljxilrxjFjvTFjzjFj1jFrxjlrrTlrzjlr1kJjrUJjvUJrpUJrrUpavUpj
         tUprtf//////////////////////////////////////////////////////////////////////////
@@ -1388,7 +1444,7 @@ Upgrading and Ordering,Order_Info,Order_Info</value>
         EBDgAKLFixgzKmRAAMEAAAo0ihxJMmGDAAgMlFzJMuOBBi0hBgQAOw==
 </value>
   </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAEBAAAAAAGABoAwAAJgAAACAgAAAAABgAqAwAAI4DAAAoAAAAEAAAACAAAAABABgAAAAAAAAD
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAoHhht5R5t5R6t5R6t5R6t5R6t5R6t5R6t5R6t5R6t5R6t5R6t5R5
