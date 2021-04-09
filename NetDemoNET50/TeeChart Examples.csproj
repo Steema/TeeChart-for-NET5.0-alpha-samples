@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -7,8 +7,16 @@
     <RootNamespace>Steema.TeeChart.Samples</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;VS2005</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;VS2005</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Steema.TeeChart.NET50.WinForms" Version="5.2021.3.31" />
+    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.WinForm\TeeChart.WinForm.csproj" />
   </ItemGroup>
 
   <ItemGroup>

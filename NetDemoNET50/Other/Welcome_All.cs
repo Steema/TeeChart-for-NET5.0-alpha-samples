@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
@@ -30,8 +30,6 @@ namespace Steema.TeeChart.Samples
 		private System.Windows.Forms.Label label8;
 
     private int idx1 = -1;
-    private int idx2 = -1;
-    private int idx3 = -1;
     private Label label9;
     private Label label10;
 
@@ -47,8 +45,9 @@ namespace Steema.TeeChart.Samples
 			//
 			InitializeComponent();
 			
-			tChart1.Zoom.Allow = false;
-		}
+            tChart1.Zoom.Direction = ZoomDirections.None;
+
+        }
 
 		/// <summary>
 		/// Clean up any resources being used.

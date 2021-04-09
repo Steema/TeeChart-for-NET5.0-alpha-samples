@@ -22,10 +22,10 @@ namespace Steema.TeeChart.Samples
 			InitializeComponent();
 
 			// Make the chart flicker by default, only for this demo
-			tChart1.Graphics3D.UseBuffer = false;
+            tChart1.Graphics3D.BufferStyle = Drawing.BufferStyle.None;
 
-			// hide things for better speed
-			tChart1.Aspect.View3D = false;
+            // hide things for better speed
+            tChart1.Aspect.View3D = false;
 			tChart1.Legend.Visible = false;
 			tChart1.Header.Visible = false;
 			tChart1.Footer.Visible = false;
@@ -269,8 +269,8 @@ Some optimizations (like not drawing repeated values) are performed. It can be u
 
 		private void checkBox1_CheckedChanged(object sender, System.EventArgs e)
 		{
-			tChart1.Graphics3D.UseBuffer = checkBox1.Checked;
-		}
+            tChart1.Graphics3D.BufferStyle = checkBox1.Checked ? Drawing.BufferStyle.OptimizedBuffer : Drawing.BufferStyle.None;
+        }
 
 		private void checkBox2_CheckedChanged(object sender, System.EventArgs e)
 		{

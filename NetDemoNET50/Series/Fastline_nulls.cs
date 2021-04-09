@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -149,7 +149,7 @@ namespace Steema.TeeChart.Samples
 					// fastLine1
 					// 
 					this.fastLine1.ColorEach = false;
-					this.fastLine1.IgnoreNulls = false;
+					this.fastLine1.TreatNulls = Styles.TreatNullsStyle.Ignore;
 					// 
 					// 
 					// 

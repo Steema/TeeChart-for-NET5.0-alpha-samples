@@ -46,10 +46,10 @@ namespace Steema.TeeChart.Samples
 			this.tChart1.Axes.Left.Grid.Centered = false;
 
 			// Disable zoom
-			this.tChart1.Zoom.Allow = false;
+            tChart1.Zoom.Direction = ZoomDirections.None;
 
-			// Set horizontal daily Increment for labels and grids:
-			this.tChart1.Axes.Bottom.Increment = Convert.ToDouble(TeeChart.DateTimeSteps.OneDay); // one day
+            // Set horizontal daily Increment for labels and grids:
+            this.tChart1.Axes.Bottom.Increment = Convert.ToDouble(TeeChart.DateTimeSteps.OneDay); // one day
 			this.tChart1.Axes.Bottom.Labels.Angle = 90;
 			this.tChart1.Axes.Bottom.Labels.DateTimeFormat = "dd-mmm";
 		}
