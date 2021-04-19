@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta11" />
-    <PackageReference Include="Steema.TeeChart.NET50.Server" Version="5.2021.3.31" />
+    <PackageReference Include="Steema.TeeChart.NET50.Server" Version="5.2021.4.14" />
   </ItemGroup>
 
   <ItemGroup>

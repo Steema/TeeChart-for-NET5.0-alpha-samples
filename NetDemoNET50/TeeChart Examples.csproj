@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.WinForm\TeeChart.WinForm.csproj" />
+    <PackageReference Include="Steema.TeeChart.NET50.WinForms" Version="5.2021.4.14" />
   </ItemGroup>
 
   <ItemGroup>
