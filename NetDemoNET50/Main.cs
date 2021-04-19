@@ -29,7 +29,6 @@ namespace Steema.TeeChart.Samples
         private System.Windows.Forms.Timer timer1;
 
         // manually defined at runtime
-        private float DeltaFocus = 0.02f;
         private static string OldSourceFile;
         private static Form TheForm;
         private static Type OldFormType;
@@ -43,7 +42,6 @@ namespace Steema.TeeChart.Samples
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel2;
-        private readonly Steema.TeeChart.TChart tChart2;
         private System.Windows.Forms.TextBox tbNodePath;
         private System.Windows.Forms.Button butGo;
         private System.Windows.Forms.Panel panelNavBar;
@@ -59,11 +57,6 @@ namespace Steema.TeeChart.Samples
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         //private MenuItem menuItem5;
-#if VS2005
-    private WebBrowser axWebBrowser;
-#else
-        //private AxSHDocVw.AxWebBrowser axWebBrowser;
-#endif
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private SaveFileDialog saveFileDialog1;
@@ -326,16 +319,7 @@ namespace Steema.TeeChart.Samples
 
         private void OpenWebPage(string location)
         {
-#if VS2005
-      axWebBrowser.Navigate(location);
-#else
-            object rr = null;
-            object dd = null;
-            object vv = null;
-            object gg = null;
-
-            //axWebBrowser.Navigate(location, ref rr, ref dd, ref vv, ref gg);
-#endif
+           
         }
 
         #region	Tree Search Algorithm
@@ -1267,16 +1251,6 @@ namespace Steema.TeeChart.Samples
             timer1.Stop();
             try
             {
-                if (tChart2 != null)
-                {
-                    var s = tChart2.Panel.Gradient.SigmaFocus;
-                    if ((s > 0.95) || (s < 0.05))
-                    {
-                        DeltaFocus = -DeltaFocus;
-                    }
-
-                    tChart2.Panel.Gradient.SigmaFocus += DeltaFocus;
-                }
             }
             finally
             {

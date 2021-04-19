@@ -118,12 +118,12 @@ namespace Steema.TeeChart.Samples
         {
             TeeChart.Styles.Series s = tChart1[0];
 
-            //TeeChart.Styles.Series.ChangeType(ref s,galleryPanel1.SelectedChart[0].GetType());
+            TeeChart.Styles.Series.ChangeType(ref s,galleryPanel1.SelectedChart[0].GetType());
         }
 
         private void galleryPanel1_OnSubSelected(object sender, System.EventArgs e)
         {
-            //galleryPanel1.SetSubSelected(tChart1[0],(int)galleryPanel1.SelectedChart.Tag);
+            galleryPanel1.SetSubSelected(tChart1[0],(int)galleryPanel1.SelectedChart.Tag);
         }
     }
 }

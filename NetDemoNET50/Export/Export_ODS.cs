@@ -142,7 +142,7 @@ namespace Steema.TeeChart.Samples
     private void bOptions_Click(object sender, EventArgs e)
     {
 #if VS2005
-      Steema.TeeChart.Editors.Export.ExportEditor.ShowModal(tChart1.Chart, tChart1.Export.Data.OpenDocument);
+      Steema.TeeChart.Editors.Export.ExportEditor.ShowModal(tChart1, tChart1.Export.Data.OpenDocument);
 #else
       Steema.TeeChart.UtilsWF.ErrorMessage("This functionality is only available in .NET 2.0 and above");      
 #endif

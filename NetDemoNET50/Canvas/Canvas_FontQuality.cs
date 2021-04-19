@@ -138,18 +138,18 @@ namespace Steema.TeeChart.Samples
       int yValue = 75, xValue = 30;
       g.Font.Size = 20;
       g.Font.Color = Color.Yellow;
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.AntiAlias;
-      //g.TextOut(xValue, yValue, "The quick brown fox jumped over the lazy dog.");
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
-      //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-      //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SingleBitPerPixel;
-      //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
-      //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
-      //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SystemDefault;
-      //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
-    }
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            //g.TextOut(xValue, yValue, "The quick brown fox jumped over the lazy dog.");
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SingleBitPerPixel;
+            //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
+            //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
+            //g.Font.Quality = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            //g.TextOut(xValue, yValue += 50, "The quick brown fox jumped over the lazy dog.");
+        }
   }
 }
