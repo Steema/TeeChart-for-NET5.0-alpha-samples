@@ -15,7 +15,7 @@
           <teechart:TChart.Header>
             <teechart:Title Text="TeeChart XAML content" />
           </teechart:TChart.Header>
-          <series:Bar>
+          <series:Bar BarStyle="Arrow">
             <series:SeriesData Y="1000000" />
             <series:SeriesData Y="200000" />
             <series:SeriesData Y="30000" />
@@ -37,7 +37,7 @@
         <teechart:TChart.Header>
           <teechart:Title Text="ColorGrid Series XAML content" />
         </teechart:TChart.Header>
-        <series:ColorGrid>
+        <series:ColorGrid UsePalette="True" UseColorRange="False" PaletteStyle="Rainbow">
           <series:Series3DData X="1" Y="1" Z="1" />
           <series:Series3DData X="1" Y="2" Z="2" />
           <series:Series3DData X="2" Y="2" Z="1" />
