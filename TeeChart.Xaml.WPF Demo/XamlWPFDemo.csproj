@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -7,15 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AvalonEdit" Version="6.0.1" />
-    <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
+    <PackageReference Include="AvalonEdit" Version="6.1.1" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.6" />
     <PackageReference Include="MvvmLight" Version="5.4.1.1" />
     <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.WPF\TeeChart.WPF.csproj" />
-    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.Xaml.WPF\TeeChart.Xaml.WPF.csproj" />
+    <PackageReference Include="Steema.TeeChart.NET50.WPF" Version="5.2021.4.21" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\Headless\TeeChart\TeeChart.csproj" />
-    <ProjectReference Include="..\..\..\..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NETStandard\TeeChart.WinForm\TeeChart.WinForm.csproj" />
+    <PackageReference Include="Steema.TeeChart.NET50.WinForms" Version="5.2021.4.21" />
   </ItemGroup>
 
   <ItemGroup>
