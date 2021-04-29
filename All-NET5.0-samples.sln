@@ -11,6 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNet5MVCDemo", "WebMVCNET
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_XAMLTeeChart", "WPF_XAMLTeeChart\WPF_XAMLTeeChart.csproj", "{7602FBEA-B768-4B63-A2A5-1CB52D8D5DC4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeeChart", "..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\Headless\TeeChart\TeeChart.csproj", "{26D12906-30EB-4817-BCB2-371D9F6B35D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeeChart.Server", "..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\Headless\TeeChart.Server\TeeChart.Server.csproj", "{DFE21531-C1C0-4A09-ACCD-41CDF170BD73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeeChart.WinForm", "..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\TeeChart.WinForm\TeeChart.WinForm.csproj", "{C88160A4-3074-4DA7-9386-537DC75C6DA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeeChart.WPF", "..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\TeeChart.WPF\TeeChart.WPF.csproj", "{CD8BE537-8FA6-49B0-894E-495AAD237B45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeeChart.Xaml.WPF", "..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\TeeChart.Xaml.WPF\TeeChart.Xaml.WPF.csproj", "{9F18FE68-6F8E-4F52-83DF-1EA0D34258C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{7602FBEA-B768-4B63-A2A5-1CB52D8D5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7602FBEA-B768-4B63-A2A5-1CB52D8D5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7602FBEA-B768-4B63-A2A5-1CB52D8D5DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D12906-30EB-4817-BCB2-371D9F6B35D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D12906-30EB-4817-BCB2-371D9F6B35D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D12906-30EB-4817-BCB2-371D9F6B35D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D12906-30EB-4817-BCB2-371D9F6B35D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE21531-C1C0-4A09-ACCD-41CDF170BD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE21531-C1C0-4A09-ACCD-41CDF170BD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE21531-C1C0-4A09-ACCD-41CDF170BD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE21531-C1C0-4A09-ACCD-41CDF170BD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88160A4-3074-4DA7-9386-537DC75C6DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88160A4-3074-4DA7-9386-537DC75C6DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88160A4-3074-4DA7-9386-537DC75C6DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88160A4-3074-4DA7-9386-537DC75C6DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8BE537-8FA6-49B0-894E-495AAD237B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8BE537-8FA6-49B0-894E-495AAD237B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8BE537-8FA6-49B0-894E-495AAD237B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8BE537-8FA6-49B0-894E-495AAD237B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F18FE68-6F8E-4F52-83DF-1EA0D34258C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F18FE68-6F8E-4F52-83DF-1EA0D34258C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F18FE68-6F8E-4F52-83DF-1EA0D34258C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F18FE68-6F8E-4F52-83DF-1EA0D34258C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

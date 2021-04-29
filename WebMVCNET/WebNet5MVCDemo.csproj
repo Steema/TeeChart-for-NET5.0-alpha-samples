@@ -7,11 +7,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta11" />
-    <PackageReference Include="Steema.TeeChart.NET50.Server" Version="5.2021.4.21" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\Headless\TeeChart.Server\TeeChart.Server.csproj" />
+    <ProjectReference Include="..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\Headless\TeeChart\TeeChart.csproj" />
   </ItemGroup>
 
 </Project>

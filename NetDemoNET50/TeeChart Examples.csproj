@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Steema.TeeChart.NET50.WinForms" Version="5.2021.4.21" />
+    <ProjectReference Include="..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\Headless\TeeChart\TeeChart.csproj" />
+    <ProjectReference Include="..\..\..\TCROOT\TeeChartForNET\Version 4\Sources\TeeChart.PCL.NET5\TeeChart.WinForm\TeeChart.WinForm.csproj" />
   </ItemGroup>
 
   <ItemGroup>
