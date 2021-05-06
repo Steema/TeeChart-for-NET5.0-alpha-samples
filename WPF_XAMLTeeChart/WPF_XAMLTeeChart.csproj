@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Steema.TeeChart.NET50.WPF" Version="5.2021.4.21" />
+    <PackageReference Include="Steema.TeeChart.NET50.WPF" Version="5.2021.5.6" />
   </ItemGroup>
 
 </Project>
