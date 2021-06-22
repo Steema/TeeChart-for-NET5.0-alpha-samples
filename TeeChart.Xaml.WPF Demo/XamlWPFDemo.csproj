@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AvalonEdit" Version="6.1.1" />
+    <PackageReference Include="AvalonEdit" Version="6.1.2.30" />
     <PackageReference Include="CommonServiceLocator" Version="2.0.6" />
     <PackageReference Include="MvvmLight" Version="5.4.1.1" />
     <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
-    <PackageReference Include="Steema.TeeChart.NET50.WPF" Version="5.2021.5.25" />
+    <PackageReference Include="Steema.TeeChart.NET" Version="4.2021.6.23" />
   </ItemGroup>
 
 </Project>
